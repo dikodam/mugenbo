@@ -1,11 +1,14 @@
 package de.dikodam.musicgenbot
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+import de.dikodam.musicgenbot.service.printMusicAtCwd
 
-@SpringBootApplication
-class MusicGenbotApplication
+//import org.springframework.boot.autoconfigure.SpringBootApplication
+//import org.springframework.boot.runApplication
+//
+//@SpringBootApplication
+//class MusicGenbotApplication
 
 fun main(args: Array<String>) {
-	runApplication<MusicGenbotApplication>(*args)
+//	runApplication<MusicGenbotApplication>(*args)
+    printMusicAtCwd()
 }
